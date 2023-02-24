@@ -21,10 +21,21 @@
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="linmath.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="shader.vert">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="shader.frag">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>

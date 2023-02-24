@@ -1,3 +1,13 @@
+#include "Window.cpp"
+
+int main()
+{
+	Window window(640, 480);
+	
+}
+
+
+/*
 #include <glad/glad.h>
 #define GLFW_INCLUDE_NONE
 #include <GLFW/glfw3.h>
@@ -11,7 +21,9 @@ static const struct
 {
 	float x, y;
 	float r, g, b;
-} vertices[3] =
+} 
+
+vertices[3] =
 {
 	{ -0.6f, -0.4f, 1.f, 0.f, 0.f },
 	{  0.6f, -0.4f, 0.f, 1.f, 0.f },
@@ -137,11 +149,7 @@ int main(void)
 	exit(EXIT_SUCCESS);
 }
 
-
-
-
-
-
+*/
 
 
 
